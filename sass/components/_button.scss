@@ -21,14 +21,14 @@
     &--center {
         margin: auto;
     }
+}
 
-    &__icon {
-        fill: $btn-icon-color;
-        width: 24px;
-        height: 24px;
-    }
+.btn__icon {
+       fill: $btn-icon-color;
+       width: 24px;
+       height: 24px;
 
-    &__icon--margin-left {
-        margin-left: 24px;
-    }
+   &--margin-left {
+       margin-left: 24px;
+   }
 }

@@ -6,40 +6,39 @@
     flex-wrap: wrap;
     align-items: center;
     list-style: none;
-
-    &__item {    
+}
+.nav__item {    
         position: relative;
         display: flex;
-    }
 
-    &__item--space-between:not(:first-child) {
+    &--space-between:not(:first-child) {
         margin-left: 46px;
     }
+}
 
-    &__link {
-        display: flex;
-        align-items: center;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        font-style: normal;
-        text-transform: capitalize;
-        color: $text-color;
-        min-height: 80px;
-        transition: color $transition;
-    }
+.nav__link {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    text-transform: capitalize;
+    color: $text-color;
+    min-height: 80px;
+    transition: color $transition;
 
-    &__link::after {
+    &::after {
         content: ' ';
         display: block;
         background-color: rgba(255, 255, 255, 0);
         transition: background-color $transition;
     }
 
-    &__link:hover::after,
-    &__link:active::after,
-    &__link:focus::after {
+    &:hover::after,
+    &:active::after,
+    &:focus::after {
         content: ' ';
         position: absolute;
         bottom: -1px;
@@ -50,17 +49,17 @@
         background-color: $brand-color;
     }
 
-    &__link:hover,
-    &__link:active,
-    &__link:focus {
+    &:hover,
+    &:active,
+    &:focus {
         color: $brand-color;
     }
+}
 
-    &__link--current-page {
-        color: $brand-color;
-    }
+.nav__link--current-page {
+    color: $brand-color;
 
-    &__link--current-page::after {
+    &::after {
         content: ' ';
         position: absolute;
         bottom: -1px;
@@ -69,5 +68,5 @@
         height: 4px;
         border-radius: 2px;
         background-color: $brand-color;    
-    }
+}
 }

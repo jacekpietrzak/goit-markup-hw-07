@@ -12,64 +12,64 @@
         box-shadow: $product-shadow;
     }
 
-    &__thumb {
-        position: relative;
-        overflow: hidden;
-    }
-
-    &__image {
-        display: block;
-    }
-
-    &__description {
-        position: absolute;
-        top: 0;
-        left: 0;    
-        padding: 49px 24px;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.56;
-        letter-spacing: 0.03em;
-        color: $product-description-color;
-        background-color: $product-description-bg-color;
-        transform: translatey(100%);
-        transition: transform $transition;
-    }
-
     &:hover &__description,
     &:active &__description,
     &:focus &__description {
         transform: translatey(0);
     }
+}
 
-    &__details {
-        padding: 20px 24px 20px 24px;
-        border-right: 1px solid #eeeeee;
-        border-bottom: 1px solid #eeeeee;
-        border-left: 1px solid #eeeeee;
-    }
+.product__thumb {
+    position: relative;
+    overflow: hidden;
+}
 
-    &__heading {
-        font-family: 'roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
-        color: $text-color;
-    }
+.product__image {
+    display: block;
+}
 
-    &__heading--margin-bottom {
+.product__description {
+    position: absolute;
+    top: 0;
+    left: 0;    
+    padding: 49px 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    color: $product-description-color;
+    background-color: $product-description-bg-color;
+    transform: translatey(100%);
+    transition: transform $transition;
+}
+
+.product__details {
+    padding: 20px 24px 20px 24px;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+}
+
+.product__heading {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: $text-color;    
+
+    &--margin-bottom {
         margin-bottom: 4px;
     }
+}
 
-    &__text {
-        font-family: 'roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.875;
-        letter-spacing: 0.03em;
-        color: $secondary-text-color;
-    }
+.product__text {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: $secondary-text-color;
 }

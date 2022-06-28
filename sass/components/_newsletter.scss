@@ -12,41 +12,41 @@
     &--flex-grow {
         flex-grow: 1;
     }
+}
 
-    &__signup-form {
-        display: flex;
-    }
+.newsletter__signup-form {
+    display: flex;
+}
 
-    &__input {
-        display: flex;
-        background-color: $newsletter-input-bg-color;
-        border: $newsletter-border;
-        border-radius: 4px;
-        padding: 15px 16px;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: 0.03em;
-        color: $newsletter-color;
-        transition: color $transition, border-color $transition;
-    }
+.newsletter__input {
+    display: flex;
+    background-color: $newsletter-input-bg-color;
+    border: $newsletter-border;
+    border-radius: 4px;
+    padding: 15px 16px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: $newsletter-color;
+    transition: color $transition, border-color $transition;
 
-    &__input--flex-grow {
+    &--flex-grow {
         flex-grow: 1;
     }
 
-    &__input--margin-right {
+    &--margin-right {
         margin-right: 12px;
     }
 
-    &__input:hover,
-    &__input:focus,
-    &__input:active {
+    &:hover,
+    &:focus,
+    &:active {
         outline: none;
         color: $newsletter-color-hover;
         border-color: $newsletter-border-color-hover;
     }
 
-    &__input::placeholder {
+    &::placeholder {
         font-size: 16px;
     }
 }

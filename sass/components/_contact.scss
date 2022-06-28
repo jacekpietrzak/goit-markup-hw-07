@@ -14,41 +14,41 @@
     &--flex-grow {
         flex-grow: 1;
     }
+}
 
-    &__item:not(:first-child) {
-        margin-left: 50px;
+.contact__item:not(:first-child) {
+    margin-left: 50px;
     }
 
-    &__link {
-        display: flex;
-        align-items: center;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        font-style: normal;
-        text-transform: lowercase;
-        color: $contact-link-color;
-        transition: color $transition;
-    }
+.contact__link {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    text-transform: lowercase;
+    color: $contact-link-color;
+    transition: color $transition;
 
-    &__link:hover,
-    &__link:active,
-    &__link:focus {
+    &:hover,
+    &:active,
+    &:focus {
         color: $brand-color;
     }
+}
 
-    &__icon-envelope {
-        fill: currentColor;
-        margin-right: 10px;
-        width: 16px;
-        height: 12px;
-    }
+.contact__icon-envelope {
+    fill: currentColor;
+    margin-right: 10px;
+    width: 16px;
+    height: 12px;
+}
 
-    &__icon-smartphone {
-        fill: currentColor;
-        margin-right: 10px;
-        width: 10px;
-        height: 16px;
-    }
+.contact__icon-smartphone {
+    fill: currentColor;
+    margin-right: 10px;
+    width: 10px;
+    height: 16px;
 }
