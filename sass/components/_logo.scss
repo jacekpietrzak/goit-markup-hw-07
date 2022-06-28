@@ -1,0 +1,38 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the logo component.
+// -----------------------------------------------------------------------------
+.logo {
+    display: flex;
+    font-family: 'raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    &--align-center {
+        align-self: center;
+    }
+
+    &--margin-right {
+        margin-right: 93px;
+    }
+
+    &--margin-bottom {
+        margin-bottom: 20px;
+    }
+
+    &__primary {
+        color: $logo-main-color;
+    }
+
+    &__secondary-dark {
+        color: $logo-secondary-dark-color;
+    }
+
+    &__secondary-light {
+        color: $logo-secondary-light-color;
+    }
+}
