@@ -23,16 +23,17 @@
     &--margin-bottom {
         margin-bottom: 20px;
     }
+    
+    &--dark {
+        color: $logo-secondary-dark-color;
+    }
+
+    &--light {
+        color: $logo-secondary-light-color;
+    }
 
     &__primary {
         color: $logo-main-color;
     }
 
-    &__secondary-dark {
-        color: $logo-secondary-dark-color;
-    }
-
-    &__secondary-light {
-        color: $logo-secondary-light-color;
-    }
 }

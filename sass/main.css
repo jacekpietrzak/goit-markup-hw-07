@@ -498,14 +498,14 @@ body {
 .logo--margin-bottom {
   margin-bottom: 20px;
 }
-.logo__primary {
-  color: #2196f3;
-}
-.logo__secondary-dark {
+.logo--dark {
   color: #212121;
 }
-.logo__secondary-light {
+.logo--light {
   color: #fff;
+}
+.logo__primary {
+  color: #2196f3;
 }
 
 .nav {
