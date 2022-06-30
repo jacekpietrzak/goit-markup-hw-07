@@ -12,11 +12,12 @@
     width: 30px;
     height: 30px;
     cursor: pointer;
+
+    &__icon {
+        display: flex;
+        margin: auto;
+        width: 11px;
+        height: 11px;
+    }
 }
 
-.btn-close__icon {
-    display: flex;
-    margin: auto;
-    width: 11px;
-    height: 11px;
-}

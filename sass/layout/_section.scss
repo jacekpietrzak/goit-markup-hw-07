@@ -3,8 +3,9 @@
  */
 .section {
     padding: $section-padding;
+
+    &--team-bg {
+        background-color: $team-background-color;
+    }
 }
 
-.section--team-bg {
-    background-color: $team-background-color;
-}

@@ -11,8 +11,9 @@
     padding-left: 15px;    /* 3 */
     padding-right: 15px;    /* 3 */
     width: 100%;    /* 1 */
+
+    &--flex {
+        display: flex;
+    }
 }
 
-.container--flex {
-    display: flex;
-}

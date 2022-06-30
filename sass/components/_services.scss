@@ -4,36 +4,35 @@
 .services {
     display: flex;
     flex-wrap: wrap;
-}
 
-.services__item {
-    list-style-type: none;
-    position: relative;
+    &__item {
+        list-style-type: none;
+        position: relative;
 
-    &--space-between:not(:first-child) {
-        margin-left: 30px;
+        &--space-between:not(:first-child) {
+            margin-left: 30px;
+        }
     }
 
-}
+    &__image {
+        min-width: 370px;
+        display: block;
+    }
 
-.services__image {
-    min-width: 370px;
-    display: block;
-}
-
-.services__heading {
-    display: flex;
-    background-color: $services-heading-bg;
-    color: $services-heading-color;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    padding: 27px 0;
-    justify-content: center;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    width: 100%;
+    &__heading {
+        display: flex;
+        background-color: $services-heading-bg;
+        color: $services-heading-color;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        padding: 27px 0;
+        justify-content: center;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
 }
